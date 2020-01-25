@@ -1,0 +1,31 @@
+{
+  "name": "airtap-sauce-browsers",
+  "version": "0.0.0",
+  "description": "Get a list of normalized Sauce Labs browsers in Airtap 4 format",
+  "license": "MIT",
+  "author": "Vincent Weevers",
+  "scripts": {
+    "test": "standard && node test"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "browser-names": "^1.0.1",
+    "make-fetch-happen": "^7.1.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1",
+    "tape": "^4.13.0"
+  },
+  "keywords": [
+    "airtap",
+    "browser",
+    "sauce",
+    "saucelabs",
+    "zuul"
+  ],
+  "engines": {
+    "node": ">=8"
+  }
+}

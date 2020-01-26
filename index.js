@@ -114,7 +114,6 @@ function normalize (specs) {
 
     const names = getNames(lowApiName, automationBackend, capabilities)
     const result = {
-      provider: 'sauce',
       name: names,
       version,
 

@@ -12,7 +12,7 @@
   ],
   "dependencies": {
     "browser-names": "^1.0.1",
-    "make-fetch-happen": "^7.1.0"
+    "minipass-fetch": "^1.2.1"
   },
   "devDependencies": {
     "standard": "^14.3.1",

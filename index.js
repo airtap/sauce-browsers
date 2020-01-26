@@ -1,10 +1,7 @@
 'use strict'
 
 const b = require('browser-names')
-const path = require('path')
-const home = require('os').homedir()
-const cacheManager = path.join(home, '.airtap', 'sauce-browsers')
-const fetch = require('make-fetch-happen').defaults({ cacheManager })
+const fetch = require('minipass-fetch')
 
 function factory (source) {
   return {

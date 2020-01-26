@@ -120,6 +120,7 @@ function normalize (specs) {
       // For mobile (appium) devices, "spec.os" is the host OS that runs
       // the emulator or simulator. Use Appium's platform name instead.
       platform: (capabilities.appium ? capabilities.appium.platformName : spec.os).toLowerCase(),
+      title: getTitle(names, capabilities),
       wants: {
         // TODO: does the new edge require loopback?
         loopback: oneOf(names, 'safari', 'ios safari', 'edge'),
@@ -194,18 +195,36 @@ function getNames (lowApiName, automationBackend, capabilities) {
     if (is(capabilities.appium.platformName, 'android')) {
       if (is(capabilities.appium.browserName, 'chrome')) {
         // Add "android" alias for airtap < 4 compatibility
-        return ['android', 'and_chr']
+        return ['and_chr', 'android']
       } else if (is(capabilities.appium.browserName, 'browser')) {
         // Add "android browser" alias to differentiate from chrome
-        return ['android', 'android browser']
+        return ['android browser', 'android']
       }
     }
 
     if (is(capabilities.appium.platformName, 'ios')) {
       // Include "ipad" or "iphone" name for airtap < 4 compatibility
-      return [lowApiName, 'ios_saf']
+      return ['ios_saf', lowApiName]
     }
   }
 
   return [b.common(lowApiName) || lowApiName]
+}
+
+function getTitle (names, capabilities) {
+  if (capabilities.appium) {
+    const c = capabilities.appium
+    const browserTitle = b.title(names[0]) || ucfirst(c.browserName)
+
+    return `Sauce Labs ${browserTitle} on ${c.platformName} ${c.platformVersion} on ${c.deviceName}`
+  } else {
+    const c = capabilities.legacy
+    const browserTitle = b.title(names[0]) || ucfirst(c.browserName)
+
+    return `Sauce Labs ${browserTitle} ${c.version} on ${c.platform}`
+  }
+}
+
+function ucfirst (str) {
+  return str[0].toUpperCase() + str.slice(1)
 }

@@ -31,19 +31,20 @@ For an example of the output, see [`expected.json`](expected.json). To match bro
 
 ## Differences from [`sauce-browsers`](https://github.com/lpinca/sauce-browsers)
 
-**Incompatibilities**
+**Breaking changes**
 
 - New format
 - Does not perform matching, that'll be a separate module. This just returns a list of all browsers available on Sauce Labs.
-- For mobile browsers, the `platform` field previously (in Zuul / Airtap / `sauce-browsers`) mapped to the host OS (Linux or MacOS) that runs the Android emulator or iOS simulator. It now maps to either Android or iOS.
+- For mobile browsers, the `platform` field previously mapped to the host OS (Linux or MacOS) that runs the Android emulator or iOS simulator. It now maps to either Android or iOS.
+- `name: android` only matches _Android Browser_. Previously it could match both _Android Browser_ and _Chrome for Android_. If both were available on a particular Android version then Sauce Labs would pick _Chrome for Android_. If you want to test in _Chrome for Android_, you must now use `name: and_chr` or its more descriptive alias `chrome for android`.
+- iOS browsers have the name "ios_saf" (iOS Safari) rather than "ipad" or "iphone". For now, Airtap will match the old names for backwards compatibility.
 
 **Additions**
 
-- Also includes Appium-only browsers (missing in `sauce-browsers`)
-- Adds `capabilities` for Appium (if a mobile browser), legacy WebDriver (if a desktop browser) and / or W3C WebDriver (if supported by the browser)
-- For Android, it includes both Chrome and Android browser if available. This is not reflected in the Sauce Labs API or `sauce-browsers`. For compatibility with Airtap < 4, `airtap-sauce-browsers` gives both browsers the name "android" and contains "preferredOver" rules that codify which browser should be selected by default (that's Chrome). Users of Airtap 4 will have the choice of specifying a more specific `name: chrome for android` or `name: android browser` instead of `name: android`.
-- iOS browsers have the additional name "ios_saf" (iOS Safari), if you don't care about which device simulator is used.
+- Also includes Appium-only browsers (missing in `sauce-browsers`) which notably includes Android 7+ and removes the need for a workaround in Airtap.
+- For Android, `airtap-sauce-browsers` includes both _Chrome for Android_ and _Android Browser_ if available. This is not directly reflected in the Sauce Labs API; `airtap-sauce-browsers` infers the availability of the extra browser from `api_name` and `version`.
 - Contains "preferredOver" rules that codify which Android emulator or iOS simulator should be selected by default. Airtap < 4 would pick an effectively random emulator or simulator. Airtap 4 will default to generic ones (that are not emulating a particular make or model) unless a `deviceName` is specified.
+- Adds `capabilities` for Appium (if a mobile browser), legacy WebDriver (if a desktop browser) and / or W3C WebDriver (if supported by the browser)
 - Includes metadata that says whether the browser needs the "loopback" functionality of Airtap.
 - Includes `recommendedBackendVersion` and `supportedBackendVersions` for Appium.
 

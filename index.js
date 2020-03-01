@@ -109,18 +109,21 @@ function normalize (specs) {
       }
     }
 
-    const names = getNames(lowApiName, automationBackend, capabilities)
-    const result = {
-      name: names,
-      version,
+    const name = getName(lowApiName, automationBackend, capabilities)
+    const title = getTitle(name, capabilities)
 
-      // For mobile (appium) devices, "spec.os" is the host OS that runs
-      // the emulator or simulator. Use Appium's platform name instead.
-      platform: (capabilities.appium ? capabilities.appium.platformName : spec.os).toLowerCase(),
-      title: getTitle(names, capabilities),
+    // For mobile (appium) devices, "spec.os" is the host OS that runs
+    // the emulator or simulator. Use Appium's platform name instead.
+    const platform = (capabilities.appium ? capabilities.appium.platformName : spec.os).toLowerCase()
+
+    const result = {
+      name,
+      version,
+      platform,
+      title,
       wants: {
-        // TODO: does the new edge require loopback?
-        loopback: oneOf(names, 'safari', 'ios safari', 'edge'),
+        // TODO: do ios_saf and the new edge require loopback?
+        loopback: ['safari', 'ios_saf', 'edge'].includes(name),
         sauceConnect: true
       },
       automationBackend,
@@ -149,10 +152,7 @@ function normalize (specs) {
         is(capabilities.appium.deviceName, 'ipad simulator') && ['any']
       )
 
-      // If user specifies "name: android" (which matches both Chrome
-      // and Android Browser) instead of the more specific names, and they
-      // don't specify "browserName" either, then prefer Chrome. Which
-      // matches the Sauce Labs behavior that we previously relied on.
+      // Prefer Chrome over Android Browser
       const preferredAppiumBrowser = (
         is(capabilities.appium.platformName, 'android') &&
         is(capabilities.appium.browserName, 'chrome') && ['Browser']
@@ -183,40 +183,33 @@ function major (version) {
   return parseInt(version, 10)
 }
 
-function oneOf (haystack, ...needles) {
-  return needles.some(n => haystack.includes(n))
-}
-
-function getNames (lowApiName, automationBackend, capabilities) {
+function getName (lowApiName, automationBackend, capabilities) {
   if (automationBackend === 'appium') {
     if (is(capabilities.appium.platformName, 'android')) {
       if (is(capabilities.appium.browserName, 'chrome')) {
-        // Add "android" alias for airtap < 4 compatibility
-        return ['and_chr', 'android']
+        return 'and_chr'
       } else if (is(capabilities.appium.browserName, 'browser')) {
-        // Add "android browser" alias to differentiate from chrome
-        return ['android browser', 'android']
+        return 'android'
       }
     }
 
     if (is(capabilities.appium.platformName, 'ios')) {
-      // Include "ipad" or "iphone" name for airtap < 4 compatibility
-      return ['ios_saf', lowApiName]
+      return 'ios_saf'
     }
   }
 
-  return [b.common(lowApiName) || lowApiName]
+  return b.common(lowApiName) || lowApiName
 }
 
-function getTitle (names, capabilities) {
+function getTitle (name, capabilities) {
   if (capabilities.appium) {
     const c = capabilities.appium
-    const browserTitle = b.title(names[0]) || ucfirst(c.browserName)
+    const browserTitle = b.title(name) || ucfirst(c.browserName)
 
     return `Sauce Labs ${browserTitle} on ${c.platformName} ${c.platformVersion} on ${c.deviceName}`
   } else {
     const c = capabilities.legacy
-    const browserTitle = b.title(names[0]) || ucfirst(c.browserName)
+    const browserTitle = b.title(name) || ucfirst(c.browserName)
 
     return `Sauce Labs ${browserTitle} ${c.version} on ${c.platform}`
   }

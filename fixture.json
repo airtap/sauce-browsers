@@ -1348,6 +1348,15 @@
     "os": "Windows 2012"
   },
   {
+    "short_version": "73",
+    "long_name": "Firefox",
+    "api_name": "firefox",
+    "long_version": "73.0.",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Windows 2012"
+  },
+  {
     "short_version": "beta",
     "long_name": "Firefox",
     "api_name": "firefox",
@@ -1847,6 +1856,15 @@
     "long_name": "Google Chrome",
     "api_name": "chrome",
     "long_version": "79.0.3945.79",
+    "latest_stable_version": "79",
+    "automation_backend": "webdriver",
+    "os": "Windows 2012"
+  },
+  {
+    "short_version": "80",
+    "long_name": "Google Chrome",
+    "api_name": "chrome",
+    "long_version": "80.0.3987.87",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Windows 2012"
@@ -2610,6 +2628,15 @@
     "long_name": "Google Chrome",
     "api_name": "chrome",
     "long_version": "79.0.3945.79",
+    "latest_stable_version": "79",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.14"
+  },
+  {
+    "short_version": "80",
+    "long_name": "Google Chrome",
+    "api_name": "chrome",
+    "long_version": "80.0.3987.87",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Mac 10.14"
@@ -3332,6 +3359,15 @@
     "os": "Mac 10.14"
   },
   {
+    "short_version": "73",
+    "long_name": "Firefox",
+    "api_name": "firefox",
+    "long_version": "73.0.",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.14"
+  },
+  {
     "short_version": "beta",
     "long_name": "Firefox",
     "api_name": "firefox",
@@ -3628,6 +3664,15 @@
     "os": "Mac 10.14"
   },
   {
+    "short_version": "80",
+    "long_name": "Microsoft Edge",
+    "api_name": "MicrosoftEdge",
+    "long_version": "80.0.361.48",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.14"
+  },
+  {
     "short_version": "12.2",
     "long_name": "iPhone Simulator",
     "api_name": "iphone",
@@ -3737,6 +3782,15 @@
     "long_name": "Firefox",
     "api_name": "firefox",
     "long_version": "72.0.",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Windows 10"
+  },
+  {
+    "short_version": "73",
+    "long_name": "Firefox",
+    "api_name": "firefox",
+    "long_version": "73.0.",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Windows 10"
@@ -4390,6 +4444,15 @@
     "os": "Mac 10.12"
   },
   {
+    "short_version": "73",
+    "long_name": "Firefox",
+    "api_name": "firefox",
+    "long_version": "73.0.",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.12"
+  },
+  {
     "short_version": "beta",
     "long_name": "Firefox",
     "api_name": "firefox",
@@ -5618,6 +5681,15 @@
     "long_name": "Google Chrome",
     "api_name": "chrome",
     "long_version": "79.0.3945.79",
+    "latest_stable_version": "79",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.12"
+  },
+  {
+    "short_version": "80",
+    "long_name": "Google Chrome",
+    "api_name": "chrome",
+    "long_version": "80.0.3987.87",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Mac 10.12"
@@ -6658,6 +6730,15 @@
     "os": "Mac 10.12"
   },
   {
+    "short_version": "80",
+    "long_name": "Microsoft Edge",
+    "api_name": "MicrosoftEdge",
+    "long_version": "80.0.361.48",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.12"
+  },
+  {
     "short_version": "10.3",
     "long_name": "iPhone Simulator",
     "api_name": "iphone",
@@ -7567,6 +7648,15 @@
     "os": "Mac 10.11"
   },
   {
+    "short_version": "73",
+    "long_name": "Firefox",
+    "api_name": "firefox",
+    "long_version": "73.0.",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.11"
+  },
+  {
     "short_version": "beta",
     "long_name": "Firefox",
     "api_name": "firefox",
@@ -7589,6 +7679,15 @@
     "long_name": "Microsoft Edge",
     "api_name": "MicrosoftEdge",
     "long_version": "79.0.309.65",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.11"
+  },
+  {
+    "short_version": "80",
+    "long_name": "Microsoft Edge",
+    "api_name": "MicrosoftEdge",
+    "long_version": "80.0.361.48",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Mac 10.11"
@@ -8057,6 +8156,15 @@
     "long_name": "Google Chrome",
     "api_name": "chrome",
     "long_version": "79.0.3945.79",
+    "latest_stable_version": "79",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.11"
+  },
+  {
+    "short_version": "80",
+    "long_name": "Google Chrome",
+    "api_name": "chrome",
+    "long_version": "80.0.3987.87",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Mac 10.11"
@@ -8942,6 +9050,15 @@
     "long_name": "Google Chrome",
     "api_name": "chrome",
     "long_version": "79.0.3945.79",
+    "latest_stable_version": "79",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.13"
+  },
+  {
+    "short_version": "80",
+    "long_name": "Google Chrome",
+    "api_name": "chrome",
+    "long_version": "80.0.3987.87",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Mac 10.13"
@@ -9739,6 +9856,15 @@
     "os": "Mac 10.13"
   },
   {
+    "short_version": "73",
+    "long_name": "Firefox",
+    "api_name": "firefox",
+    "long_version": "73.0.",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.13"
+  },
+  {
     "short_version": "beta",
     "long_name": "Firefox",
     "api_name": "firefox",
@@ -10202,6 +10328,15 @@
     "long_name": "Microsoft Edge",
     "api_name": "MicrosoftEdge",
     "long_version": "79.0.309.65",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.13"
+  },
+  {
+    "short_version": "80",
+    "long_name": "Microsoft Edge",
+    "api_name": "MicrosoftEdge",
+    "long_version": "80.0.361.48",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Mac 10.13"
@@ -10999,6 +11134,15 @@
     "os": "Mac 10.15"
   },
   {
+    "short_version": "73",
+    "long_name": "Firefox",
+    "api_name": "firefox",
+    "long_version": "73.0.",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
     "short_version": "beta",
     "long_name": "Firefox",
     "api_name": "firefox",
@@ -11021,6 +11165,15 @@
     "long_name": "Microsoft Edge",
     "api_name": "MicrosoftEdge",
     "long_version": "79.0.309.65",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "80",
+    "long_name": "Microsoft Edge",
+    "api_name": "MicrosoftEdge",
+    "long_version": "80.0.361.48",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Mac 10.15"
@@ -11129,6 +11282,15 @@
     "long_name": "Google Chrome",
     "api_name": "chrome",
     "long_version": "79.0.3945.79",
+    "latest_stable_version": "79",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "80",
+    "long_name": "Google Chrome",
+    "api_name": "chrome",
+    "long_version": "80.0.3987.87",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Mac 10.15"
@@ -11755,6 +11917,15 @@
     "os": "Windows 10"
   },
   {
+    "short_version": "80",
+    "long_name": "Microsoft Edge",
+    "api_name": "MicrosoftEdge",
+    "long_version": "80.0.361.48",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Windows 10"
+  },
+  {
     "short_version": "26",
     "long_name": "Google Chrome",
     "api_name": "chrome",
@@ -12236,6 +12407,15 @@
     "long_name": "Google Chrome",
     "api_name": "chrome",
     "long_version": "79.0.3945.79",
+    "latest_stable_version": "79",
+    "automation_backend": "webdriver",
+    "os": "Windows 10"
+  },
+  {
+    "short_version": "80",
+    "long_name": "Google Chrome",
+    "api_name": "chrome",
+    "long_version": "80.0.3987.87",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Windows 10"
@@ -12889,6 +13069,15 @@
     "os": "Windows 2012 R2"
   },
   {
+    "short_version": "73",
+    "long_name": "Firefox",
+    "api_name": "firefox",
+    "long_version": "73.0.",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Windows 2012 R2"
+  },
+  {
     "short_version": "beta",
     "long_name": "Firefox",
     "api_name": "firefox",
@@ -13388,6 +13577,15 @@
     "long_name": "Google Chrome",
     "api_name": "chrome",
     "long_version": "79.0.3945.79",
+    "latest_stable_version": "79",
+    "automation_backend": "webdriver",
+    "os": "Windows 2012 R2"
+  },
+  {
+    "short_version": "80",
+    "long_name": "Google Chrome",
+    "api_name": "chrome",
+    "long_version": "80.0.3987.87",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Windows 2012 R2"
@@ -14653,6 +14851,15 @@
     "os": "Windows 2008"
   },
   {
+    "short_version": "73",
+    "long_name": "Firefox",
+    "api_name": "firefox",
+    "long_version": "73.0.",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Windows 2008"
+  },
+  {
     "short_version": "beta",
     "long_name": "Firefox",
     "api_name": "firefox",
@@ -15152,6 +15359,15 @@
     "long_name": "Google Chrome",
     "api_name": "chrome",
     "long_version": "79.0.3945.79",
+    "latest_stable_version": "79",
+    "automation_backend": "webdriver",
+    "os": "Windows 2008"
+  },
+  {
+    "short_version": "80",
+    "long_name": "Google Chrome",
+    "api_name": "chrome",
+    "long_version": "80.0.3987.87",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Windows 2008"
@@ -15341,6 +15557,15 @@
     "long_name": "Microsoft Edge",
     "api_name": "MicrosoftEdge",
     "long_version": "79.0.309.65",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.10"
+  },
+  {
+    "short_version": "80",
+    "long_name": "Microsoft Edge",
+    "api_name": "MicrosoftEdge",
+    "long_version": "80.0.361.48",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Mac 10.10"
@@ -15737,6 +15962,15 @@
     "long_name": "Google Chrome",
     "api_name": "chrome",
     "long_version": "79.0.3945.79",
+    "latest_stable_version": "79",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.10"
+  },
+  {
+    "short_version": "80",
+    "long_name": "Google Chrome",
+    "api_name": "chrome",
+    "long_version": "80.0.3987.87",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Mac 10.10"

@@ -1,7 +1,7 @@
 # airtap-sauce-browsers
 
-> **Get a list of normalized Sauce Labs browsers in Airtap 4 format.**  
-> Intended to replace [`sauce-browsers`](https://github.com/lpinca/sauce-browsers). Stability: unstable.
+> **Get a list of normalized Sauce Labs browsers as [browser manifests](https://github.com/airtap/browser-manifest).**  
+> Replaces [`sauce-browsers`](https://github.com/lpinca/sauce-browsers).
 
 [![npm status](http://img.shields.io/npm/v/airtap-sauce-browsers.svg)](https://www.npmjs.org/package/airtap-sauce-browsers)
 [![node](https://img.shields.io/node/v/airtap-sauce-browsers.svg)](https://www.npmjs.org/package/airtap-sauce-browsers)
@@ -12,18 +12,18 @@
 
 ```js
 const asb = require('airtap-sauce-browsers').promise
-const browser = await asb()
+const manifests = await asb()
 
-console.log(browsers)
+console.log(manifests)
 ```
 
 ```js
 const asb = require('airtap-sauce-browsers').callback
 
-asb(function (err, browsers) {
+asb(function (err, manifests) {
   if (err) throw err
 
-  console.log(browsers)
+  console.log(manifests)
 })
 ```
 
@@ -34,7 +34,7 @@ For an example of the output, see [`expected.json`](expected.json). To match bro
 **Breaking changes**
 
 - New format
-- Does not perform matching, that'll be a separate module. This just returns a list of all browsers available on Sauce Labs.
+- Does not perform matching, that's handled by [`airtap-match-browsers`](https://github.com/airtap/match-browsers). This just returns a list of all browsers available on Sauce Labs.
 - For mobile browsers, the `platform` field previously mapped to the host OS (Linux or MacOS) that runs the Android emulator or iOS simulator. It now maps to either Android or iOS.
 - `name: android` only matches _Android Browser_. Previously it could match both _Android Browser_ and _Chrome for Android_. If both were available on a particular Android version then Sauce Labs would pick _Chrome for Android_. If you want to test in _Chrome for Android_, you must now use `name: and_chr` or its more descriptive alias `chrome for android`.
 - iOS browsers have the name "ios_saf" (iOS Safari) rather than "ipad" or "iphone". For now, Airtap will match the old names for backwards compatibility.
@@ -47,10 +47,6 @@ For an example of the output, see [`expected.json`](expected.json). To match bro
 - Adds `capabilities` for Appium (if a mobile browser), legacy WebDriver (if a desktop browser) and / or W3C WebDriver (if supported by the browser)
 - Includes metadata that says whether the browser needs the "loopback" functionality of Airtap.
 - Includes `recommendedBackendVersion` and `supportedBackendVersions` for Appium.
-
-## Format
-
-Yet to document.
 
 ## Install
 

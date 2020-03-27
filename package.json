@@ -1,7 +1,7 @@
 {
   "name": "airtap-sauce-browsers",
   "version": "0.0.3",
-  "description": "Get a list of normalized Sauce Labs browsers in Airtap 4 format",
+  "description": "Get a list of normalized Sauce Labs browsers as browser manifests",
   "license": "MIT",
   "author": "Vincent Weevers",
   "scripts": {

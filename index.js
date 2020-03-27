@@ -124,7 +124,7 @@ function normalize (specs) {
       wants: {
         // TODO: do ios_saf and the new edge require loopback?
         loopback: ['safari', 'ios_saf', 'edge'].includes(name),
-        sauceConnect: true
+        tunnel: true
       },
       automationBackend,
       capabilities

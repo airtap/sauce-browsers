@@ -134,9 +134,10 @@ function normalize (manifests) {
       result.recommendedBackendVersion = manifest.recommended_backend_version
     }
 
-    if (manifest.supported_backend_versions) {
-      result.supportedBackendVersions = manifest.supported_backend_versions
-    }
+    // Excluded for now because behavior of array matching is TBD
+    // if (manifest.supported_backend_versions) {
+    //   result.supportedBackendVersions = manifest.supported_backend_versions
+    // }
 
     return result
   }).filter(Boolean)

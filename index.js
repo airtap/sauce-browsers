@@ -138,39 +138,6 @@ function normalize (manifests) {
       result.supportedBackendVersions = manifest.supported_backend_versions
     }
 
-    const preferredOver = {}
-
-    if (automationBackend === 'appium') {
-      // If user does not specify "deviceName" then default to the generic ones.
-      const preferredAppiumDevice = (
-        is(capabilities.appium.deviceName, 'android googleapi emulator') && ['Android Emulator', 'any']
-      ) || (
-        is(capabilities.appium.deviceName, 'android emulator') && ['any']
-      ) || (
-        is(capabilities.appium.deviceName, 'iphone simulator') && ['iPad Simulator', 'any']
-      ) || (
-        is(capabilities.appium.deviceName, 'ipad simulator') && ['any']
-      )
-
-      // Prefer Chrome over Android Browser
-      const preferredAppiumBrowser = (
-        is(capabilities.appium.platformName, 'android') &&
-        is(capabilities.appium.browserName, 'chrome') && ['Browser']
-      )
-
-      if (preferredAppiumDevice) {
-        preferredOver['capabilities.appium.deviceName'] = preferredAppiumDevice
-      }
-
-      if (preferredAppiumBrowser) {
-        preferredOver['capabilities.appium.browserName'] = preferredAppiumBrowser
-      }
-    }
-
-    if (Object.keys(preferredOver).length) {
-      result.preferredOver = preferredOver
-    }
-
     return result
   }).filter(Boolean)
 }

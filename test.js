@@ -6,12 +6,6 @@ const asb = require('.').factory(async function source () {
   return JSON.parse(fs.readFileSync('fixture.json', 'utf8'))
 })
 
-// ;(async function writeFixture () {
-//   const asb = require('.')
-//   const browsers = await asb.promise()
-//   fs.writeFileSync('expected.json', JSON.stringify(browsers, null, 2))
-// })()
-
 test('basic', async function (t) {
   t.plan(1)
 

@@ -11,7 +11,7 @@
     "index.js"
   ],
   "dependencies": {
-    "browser-names": "^1.0.1",
+    "browser-names": "^1.1.0",
     "minipass-fetch": "^1.2.1"
   },
   "devDependencies": {

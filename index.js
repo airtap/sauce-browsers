@@ -124,7 +124,8 @@ function normalize (manifests) {
       wants: {
         // TODO: do ios_saf and the new edge require loopback?
         loopback: ['safari', 'ios_saf', 'edge'].includes(name),
-        tunnel: true
+        tunnel: true,
+        secureEnv: true
       },
       automationBackend,
       capabilities

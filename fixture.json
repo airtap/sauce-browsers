@@ -1,5 +1,30 @@
 [
   {
+    "short_version": "12.4",
+    "long_name": "iPad Simulator",
+    "api_name": "ipad",
+    "long_version": "12.4.",
+    "device": "iPad Simulator",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPad Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPad Simulator",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
     "short_version": "13.0",
     "long_name": "iPad Simulator",
     "api_name": "ipad",
@@ -48,6 +73,81 @@
       "1.17.1"
     ],
     "device": "iPad Simulator",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "13.4",
+    "long_name": "iPad Simulator",
+    "api_name": "ipad",
+    "long_version": "13.4.",
+    "device": "iPad Simulator",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPad Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPad Simulator",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "13.4",
+    "long_name": "iPhone SE (2nd generation) Simulator",
+    "api_name": "iphone",
+    "long_version": "13.4.",
+    "device": "iPhone SE (2nd generation)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPhone SE (2nd generation) Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPhone SE (2nd generation)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPad mini (5th generation) Simulator",
+    "api_name": "ipad",
+    "long_version": "12.4.",
+    "device": "iPad mini (5th generation)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPad mini (5th generation) Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPad mini (5th generation)",
     "latest_stable_version": "",
     "automation_backend": "appium",
     "os": "Mac 10.15"
@@ -106,6 +206,159 @@
     "os": "Mac 10.15"
   },
   {
+    "short_version": "13.4",
+    "long_name": "iPad mini (5th generation) Simulator",
+    "api_name": "ipad",
+    "long_version": "13.4.",
+    "device": "iPad mini (5th generation)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPad mini (5th generation) Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPad mini (5th generation)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPad Pro (12.9 inch) (3rd generation) Simulator",
+    "api_name": "ipad",
+    "long_version": "12.4.",
+    "device": "iPad Pro (12.9-inch) (3rd generation)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPad Pro (12.9 inch) (3rd generation) Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPad Pro (12.9-inch) (3rd generation)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "13.0",
+    "long_name": "iPad Pro (12.9 inch) (3rd generation) Simulator",
+    "api_name": "ipad",
+    "long_version": "13.0.",
+    "device": "iPad Pro (12.9-inch) (3rd generation)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.0",
+    "long_name": "iPad Pro (12.9 inch) (3rd generation) Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.0.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.15.0",
+      "1.16.0",
+      "1.17.1"
+    ],
+    "device": "iPad Pro (12.9-inch) (3rd generation)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "13.2",
+    "long_name": "iPad Pro (12.9 inch) (3rd generation) Simulator",
+    "api_name": "ipad",
+    "long_version": "13.2.",
+    "device": "iPad Pro (12.9-inch) (3rd generation)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.2",
+    "long_name": "iPad Pro (12.9 inch) (3rd generation) Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.2.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.16.0",
+      "1.17.1"
+    ],
+    "device": "iPad Pro (12.9-inch) (3rd generation)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "13.4",
+    "long_name": "iPad Pro (12.9 inch) (3rd generation) Simulator",
+    "api_name": "ipad",
+    "long_version": "13.4.",
+    "device": "iPad Pro (12.9-inch) (3rd generation)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPad Pro (12.9 inch) (3rd generation) Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPad Pro (12.9-inch) (3rd generation)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPhone 6s Simulator",
+    "api_name": "iphone",
+    "long_version": "12.4.",
+    "device": "iPhone 6s",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPhone 6s Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPhone 6s",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
     "short_version": "13.0",
     "long_name": "iPhone 6s Simulator",
     "api_name": "iphone",
@@ -159,11 +412,61 @@
     "os": "Mac 10.15"
   },
   {
-    "short_version": "13.0",
-    "long_name": "iPhone 8 Plus Simulator",
+    "short_version": "13.4",
+    "long_name": "iPhone 6s Simulator",
     "api_name": "iphone",
+    "long_version": "13.4.",
+    "device": "iPhone 6s",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPhone 6s Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPhone 6s",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPad Air 2 Simulator",
+    "api_name": "ipad",
+    "long_version": "12.4.",
+    "device": "iPad Air 2",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPad Air 2 Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPad Air 2",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "13.0",
+    "long_name": "iPad Air 2 Simulator",
+    "api_name": "ipad",
     "long_version": "13.0.",
-    "device": "iPhone 8 Plus",
+    "device": "iPad Air 2",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Mac 10.15"
@@ -171,26 +474,26 @@
   {
     "deprecated_backend_versions": [],
     "short_version": "13.0",
-    "long_name": "iPhone 8 Plus Simulator",
+    "long_name": "iPad Air 2 Simulator",
     "recommended_backend_version": "1.17.1",
     "long_version": "13.0.",
-    "api_name": "iphone",
+    "api_name": "ipad",
     "supported_backend_versions": [
       "1.15.0",
       "1.16.0",
       "1.17.1"
     ],
-    "device": "iPhone 8 Plus",
+    "device": "iPad Air 2",
     "latest_stable_version": "",
     "automation_backend": "appium",
     "os": "Mac 10.15"
   },
   {
     "short_version": "13.2",
-    "long_name": "iPhone 8 Plus Simulator",
-    "api_name": "iphone",
+    "long_name": "iPad Air 2 Simulator",
+    "api_name": "ipad",
     "long_version": "13.2.",
-    "device": "iPhone 8 Plus",
+    "device": "iPad Air 2",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Mac 10.15"
@@ -198,15 +501,65 @@
   {
     "deprecated_backend_versions": [],
     "short_version": "13.2",
-    "long_name": "iPhone 8 Plus Simulator",
+    "long_name": "iPad Air 2 Simulator",
     "recommended_backend_version": "1.17.1",
     "long_version": "13.2.",
-    "api_name": "iphone",
+    "api_name": "ipad",
     "supported_backend_versions": [
       "1.16.0",
       "1.17.1"
     ],
-    "device": "iPhone 8 Plus",
+    "device": "iPad Air 2",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "13.4",
+    "long_name": "iPad Air 2 Simulator",
+    "api_name": "ipad",
+    "long_version": "13.4.",
+    "device": "iPad Air 2",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPad Air 2 Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPad Air 2",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "13.4",
+    "long_name": "iPad Pro (11 inch) (1st generation) Simulator",
+    "api_name": "ipad",
+    "long_version": "13.4.",
+    "device": "iPad Pro (11-inch) (1st generation)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPad Pro (11 inch) (1st generation) Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPad Pro (11-inch) (1st generation)",
     "latest_stable_version": "",
     "automation_backend": "appium",
     "os": "Mac 10.15"
@@ -257,6 +610,31 @@
     "api_name": "iphone",
     "supported_backend_versions": [
       "1.16.0",
+      "1.17.1"
+    ],
+    "device": "iPhone 11 Pro Max",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "13.4",
+    "long_name": "iPhone 11 Pro Max Simulator",
+    "api_name": "iphone",
+    "long_version": "13.4.",
+    "device": "iPhone 11 Pro Max",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPhone 11 Pro Max Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
       "1.17.1"
     ],
     "device": "iPhone 11 Pro Max",
@@ -318,11 +696,61 @@
     "os": "Mac 10.15"
   },
   {
+    "short_version": "13.4",
+    "long_name": "iPhone 11 Simulator",
+    "api_name": "iphone",
+    "long_version": "13.4.",
+    "device": "iPhone 11",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPhone 11 Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPhone 11",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPhone 8 Plus Simulator",
+    "api_name": "iphone",
+    "long_version": "12.4.",
+    "device": "iPhone 8 Plus",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPhone 8 Plus Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPhone 8 Plus",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
     "short_version": "13.0",
-    "long_name": "iPad Air 2 Simulator",
-    "api_name": "ipad",
+    "long_name": "iPhone 8 Plus Simulator",
+    "api_name": "iphone",
     "long_version": "13.0.",
-    "device": "iPad Air 2",
+    "device": "iPhone 8 Plus",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Mac 10.15"
@@ -330,26 +758,26 @@
   {
     "deprecated_backend_versions": [],
     "short_version": "13.0",
-    "long_name": "iPad Air 2 Simulator",
+    "long_name": "iPhone 8 Plus Simulator",
     "recommended_backend_version": "1.17.1",
     "long_version": "13.0.",
-    "api_name": "ipad",
+    "api_name": "iphone",
     "supported_backend_versions": [
       "1.15.0",
       "1.16.0",
       "1.17.1"
     ],
-    "device": "iPad Air 2",
+    "device": "iPhone 8 Plus",
     "latest_stable_version": "",
     "automation_backend": "appium",
     "os": "Mac 10.15"
   },
   {
     "short_version": "13.2",
-    "long_name": "iPad Air 2 Simulator",
-    "api_name": "ipad",
+    "long_name": "iPhone 8 Plus Simulator",
+    "api_name": "iphone",
     "long_version": "13.2.",
-    "device": "iPad Air 2",
+    "device": "iPhone 8 Plus",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Mac 10.15"
@@ -357,15 +785,65 @@
   {
     "deprecated_backend_versions": [],
     "short_version": "13.2",
-    "long_name": "iPad Air 2 Simulator",
+    "long_name": "iPhone 8 Plus Simulator",
     "recommended_backend_version": "1.17.1",
     "long_version": "13.2.",
-    "api_name": "ipad",
+    "api_name": "iphone",
     "supported_backend_versions": [
       "1.16.0",
       "1.17.1"
     ],
-    "device": "iPad Air 2",
+    "device": "iPhone 8 Plus",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "13.4",
+    "long_name": "iPhone 8 Plus Simulator",
+    "api_name": "iphone",
+    "long_version": "13.4.",
+    "device": "iPhone 8 Plus",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPhone 8 Plus Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPhone 8 Plus",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPhone 7 Plus Simulator",
+    "api_name": "iphone",
+    "long_version": "12.4.",
+    "device": "iPhone 7 Plus",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPhone 7 Plus Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPhone 7 Plus",
     "latest_stable_version": "",
     "automation_backend": "appium",
     "os": "Mac 10.15"
@@ -424,6 +902,56 @@
     "os": "Mac 10.15"
   },
   {
+    "short_version": "13.4",
+    "long_name": "iPhone 7 Plus Simulator",
+    "api_name": "iphone",
+    "long_version": "13.4.",
+    "device": "iPhone 7 Plus",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPhone 7 Plus Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPhone 7 Plus",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPad Pro (11 inch) Simulator",
+    "api_name": "ipad",
+    "long_version": "12.4.",
+    "device": "iPad Pro (11-inch)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPad Pro (11 inch) Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPad Pro (11-inch)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
     "short_version": "13.0",
     "long_name": "iPad Pro (11 inch) Simulator",
     "api_name": "ipad",
@@ -472,6 +1000,31 @@
       "1.17.1"
     ],
     "device": "iPad Pro (11-inch)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPad (6th generation) Simulator",
+    "api_name": "ipad",
+    "long_version": "12.4.",
+    "device": "iPad (6th generation)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPad (6th generation) Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPad (6th generation)",
     "latest_stable_version": "",
     "automation_backend": "appium",
     "os": "Mac 10.15"
@@ -530,6 +1083,56 @@
     "os": "Mac 10.15"
   },
   {
+    "short_version": "13.4",
+    "long_name": "iPad (6th generation) Simulator",
+    "api_name": "ipad",
+    "long_version": "13.4.",
+    "device": "iPad (6th generation)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPad (6th generation) Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPad (6th generation)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPad Air (3rd generation) Simulator",
+    "api_name": "ipad",
+    "long_version": "12.4.",
+    "device": "iPad Air (3rd generation)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPad Air (3rd generation) Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPad Air (3rd generation)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
     "short_version": "13.0",
     "long_name": "iPad Air (3rd generation) Simulator",
     "api_name": "ipad",
@@ -583,6 +1186,131 @@
     "os": "Mac 10.15"
   },
   {
+    "short_version": "13.4",
+    "long_name": "iPad Air (3rd generation) Simulator",
+    "api_name": "ipad",
+    "long_version": "13.4.",
+    "device": "iPad Air (3rd generation)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPad Air (3rd generation) Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPad Air (3rd generation)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "13.4",
+    "long_name": "iPad Pro (12.9 inch) (4th generation) Simulator",
+    "api_name": "ipad",
+    "long_version": "13.4.",
+    "device": "iPad Pro (12.9-inch) (4th generation)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPad Pro (12.9 inch) (4th generation) Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPad Pro (12.9-inch) (4th generation)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPad mini 2 Simulator",
+    "api_name": "ipad",
+    "long_version": "12.4.",
+    "device": "iPad mini 2",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPad mini 2 Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPad mini 2",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPad mini 3 Simulator",
+    "api_name": "ipad",
+    "long_version": "12.4.",
+    "device": "iPad mini 3",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPad mini 3 Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPad mini 3",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPhone 7 Simulator",
+    "api_name": "iphone",
+    "long_version": "12.4.",
+    "device": "iPhone 7",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPhone 7 Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPhone 7",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
     "short_version": "13.0",
     "long_name": "iPhone 7 Simulator",
     "api_name": "iphone",
@@ -631,6 +1359,81 @@
       "1.17.1"
     ],
     "device": "iPhone 7",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "13.4",
+    "long_name": "iPhone 7 Simulator",
+    "api_name": "iphone",
+    "long_version": "13.4.",
+    "device": "iPhone 7",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPhone 7 Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPhone 7",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPhone 6 Simulator",
+    "api_name": "iphone",
+    "long_version": "12.4.",
+    "device": "iPhone 6",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPhone 6 Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPhone 6",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPad mini 4 Simulator",
+    "api_name": "ipad",
+    "long_version": "12.4.",
+    "device": "iPad mini 4",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPad mini 4 Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPad mini 4",
     "latest_stable_version": "",
     "automation_backend": "appium",
     "os": "Mac 10.15"
@@ -681,6 +1484,31 @@
     "api_name": "ipad",
     "supported_backend_versions": [
       "1.16.0",
+      "1.17.1"
+    ],
+    "device": "iPad mini 4",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "13.4",
+    "long_name": "iPad mini 4 Simulator",
+    "api_name": "ipad",
+    "long_version": "13.4.",
+    "device": "iPad mini 4",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPad mini 4 Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
       "1.17.1"
     ],
     "device": "iPad mini 4",
@@ -842,6 +1670,31 @@
     "os": "Mac 10.15"
   },
   {
+    "short_version": "12.4",
+    "long_name": "iPhone 8 Simulator",
+    "api_name": "iphone",
+    "long_version": "12.4.",
+    "device": "iPhone 8",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPhone 8 Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPhone 8",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
     "short_version": "13.0",
     "long_name": "iPhone 8 Simulator",
     "api_name": "iphone",
@@ -890,6 +1743,81 @@
       "1.17.1"
     ],
     "device": "iPhone 8",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "13.4",
+    "long_name": "iPhone 8 Simulator",
+    "api_name": "iphone",
+    "long_version": "13.4.",
+    "device": "iPhone 8",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPhone 8 Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPhone 8",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPhone 5s Simulator",
+    "api_name": "iphone",
+    "long_version": "12.4.",
+    "device": "iPhone 5s",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPhone 5s Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPhone 5s",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPhone SE Simulator",
+    "api_name": "iphone",
+    "long_version": "12.4.",
+    "device": "iPhone SE",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPhone SE Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPhone SE",
     "latest_stable_version": "",
     "automation_backend": "appium",
     "os": "Mac 10.15"
@@ -1650,54 +2578,76 @@
     "os": "Mac 10.15"
   },
   {
-    "short_version": "13.0",
-    "long_name": "iPad Pro (12.9 inch) (3rd generation) Simulator",
-    "api_name": "ipad",
-    "long_version": "13.0.",
-    "device": "iPad Pro (12.9-inch) (3rd generation)",
+    "short_version": "13.4",
+    "long_name": "iPhone SE (1st generation) Simulator",
+    "api_name": "iphone",
+    "long_version": "13.4.",
+    "device": "iPhone SE (1st generation)",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Mac 10.15"
   },
   {
     "deprecated_backend_versions": [],
-    "short_version": "13.0",
-    "long_name": "iPad Pro (12.9 inch) (3rd generation) Simulator",
+    "short_version": "13.4",
+    "long_name": "iPhone SE (1st generation) Simulator",
     "recommended_backend_version": "1.17.1",
-    "long_version": "13.0.",
-    "api_name": "ipad",
+    "long_version": "13.4.",
+    "api_name": "iphone",
     "supported_backend_versions": [
-      "1.15.0",
-      "1.16.0",
       "1.17.1"
     ],
-    "device": "iPad Pro (12.9-inch) (3rd generation)",
+    "device": "iPhone SE (1st generation)",
     "latest_stable_version": "",
     "automation_backend": "appium",
     "os": "Mac 10.15"
   },
   {
-    "short_version": "13.2",
-    "long_name": "iPad Pro (12.9 inch) (3rd generation) Simulator",
+    "short_version": "12.4",
+    "long_name": "iPad Air Simulator",
     "api_name": "ipad",
-    "long_version": "13.2.",
-    "device": "iPad Pro (12.9-inch) (3rd generation)",
+    "long_version": "12.4.",
+    "device": "iPad Air",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Mac 10.15"
   },
   {
     "deprecated_backend_versions": [],
-    "short_version": "13.2",
-    "long_name": "iPad Pro (12.9 inch) (3rd generation) Simulator",
-    "recommended_backend_version": "1.17.1",
-    "long_version": "13.2.",
+    "short_version": "12.4",
+    "long_name": "iPad Air Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
     "api_name": "ipad",
     "supported_backend_versions": [
-      "1.16.0",
-      "1.17.1"
+      "1.13.0"
     ],
-    "device": "iPad Pro (12.9-inch) (3rd generation)",
+    "device": "iPad Air",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPad (5th generation) Simulator",
+    "api_name": "ipad",
+    "long_version": "12.4.",
+    "device": "iPad (5th generation)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPad (5th generation) Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPad (5th generation)",
     "latest_stable_version": "",
     "automation_backend": "appium",
     "os": "Mac 10.15"
@@ -1756,6 +2706,56 @@
     "os": "Mac 10.15"
   },
   {
+    "short_version": "13.4",
+    "long_name": "iPad (5th generation) Simulator",
+    "api_name": "ipad",
+    "long_version": "13.4.",
+    "device": "iPad (5th generation)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPad (5th generation) Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPad (5th generation)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPad Pro (12.9 inch) Simulator",
+    "api_name": "ipad",
+    "long_version": "12.4.",
+    "device": "iPad Pro (12.9-inch)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPad Pro (12.9 inch) Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPad Pro (12.9-inch)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
     "short_version": "13.0",
     "long_name": "iPad Pro (12.9 inch) Simulator",
     "api_name": "ipad",
@@ -1801,6 +2801,31 @@
     "api_name": "ipad",
     "supported_backend_versions": [
       "1.16.0",
+      "1.17.1"
+    ],
+    "device": "iPad Pro (12.9-inch)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "13.4",
+    "long_name": "iPad Pro (12.9 inch) Simulator",
+    "api_name": "ipad",
+    "long_version": "13.4.",
+    "device": "iPad Pro (12.9-inch)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPad Pro (12.9 inch) Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
       "1.17.1"
     ],
     "device": "iPad Pro (12.9-inch)",
@@ -1835,6 +2860,56 @@
     "os": "Mac 10.15"
   },
   {
+    "short_version": "13.4",
+    "long_name": "iPad (7th generation) Simulator",
+    "api_name": "ipad",
+    "long_version": "13.4.",
+    "device": "iPad (7th generation)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPad (7th generation) Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPad (7th generation)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPad Pro (9.7 inch) Simulator",
+    "api_name": "ipad",
+    "long_version": "12.4.",
+    "device": "iPad Pro (9.7-inch)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPad Pro (9.7 inch) Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPad Pro (9.7-inch)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
     "short_version": "13.0",
     "long_name": "iPad Pro (9.7 inch) Simulator",
     "api_name": "ipad",
@@ -1880,6 +2955,31 @@
     "api_name": "ipad",
     "supported_backend_versions": [
       "1.16.0",
+      "1.17.1"
+    ],
+    "device": "iPad Pro (9.7-inch)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "13.4",
+    "long_name": "iPad Pro (9.7 inch) Simulator",
+    "api_name": "ipad",
+    "long_version": "13.4.",
+    "device": "iPad Pro (9.7-inch)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPad Pro (9.7 inch) Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
       "1.17.1"
     ],
     "device": "iPad Pro (9.7-inch)",
@@ -1897,6 +2997,31 @@
     "os": "Mac 10.15"
   },
   {
+    "short_version": "12.4",
+    "long_name": "iPhone XS Max Simulator",
+    "api_name": "iphone",
+    "long_version": "12.4.",
+    "device": "iPhone XS Max",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPhone XS Max Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPhone XS Max",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
     "short_version": "13.0",
     "long_name": "iPhone XS Max Simulator",
     "api_name": "iphone",
@@ -1945,6 +3070,81 @@
       "1.17.1"
     ],
     "device": "iPhone XS Max",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "13.4",
+    "long_name": "iPhone XS Max Simulator",
+    "api_name": "iphone",
+    "long_version": "13.4.",
+    "device": "iPhone XS Max",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPhone XS Max Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPhone XS Max",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPhone 6 Plus Simulator",
+    "api_name": "iphone",
+    "long_version": "12.4.",
+    "device": "iPhone 6 Plus",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPhone 6 Plus Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPhone 6 Plus",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPhone X Simulator",
+    "api_name": "iphone",
+    "long_version": "12.4.",
+    "device": "iPhone X",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPhone X Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPhone X",
     "latest_stable_version": "",
     "automation_backend": "appium",
     "os": "Mac 10.15"
@@ -2003,6 +3203,56 @@
     "os": "Mac 10.15"
   },
   {
+    "short_version": "13.4",
+    "long_name": "iPhone X Simulator",
+    "api_name": "iphone",
+    "long_version": "13.4.",
+    "device": "iPhone X",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPhone X Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPhone X",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPhone XR Simulator",
+    "api_name": "iphone",
+    "long_version": "12.4.",
+    "device": "iPhone XR",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPhone XR Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPhone XR",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
     "short_version": "13.0",
     "long_name": "iPhone XR Simulator",
     "api_name": "iphone",
@@ -2056,6 +3306,56 @@
     "os": "Mac 10.15"
   },
   {
+    "short_version": "13.4",
+    "long_name": "iPhone XR Simulator",
+    "api_name": "iphone",
+    "long_version": "13.4.",
+    "device": "iPhone XR",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPhone XR Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPhone XR",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPhone XS Simulator",
+    "api_name": "iphone",
+    "long_version": "12.4.",
+    "device": "iPhone XS",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPhone XS Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPhone XS",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
     "short_version": "13.0",
     "long_name": "iPhone XS Simulator",
     "api_name": "iphone",
@@ -2104,6 +3404,81 @@
       "1.17.1"
     ],
     "device": "iPhone XS",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "13.4",
+    "long_name": "iPhone XS Simulator",
+    "api_name": "iphone",
+    "long_version": "13.4.",
+    "device": "iPhone XS",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPhone XS Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPhone XS",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "13.4",
+    "long_name": "iPad Pro (11 inch) (2nd generation) Simulator",
+    "api_name": "ipad",
+    "long_version": "13.4.",
+    "device": "iPad Pro (11-inch) (2nd generation)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPad Pro (11 inch) (2nd generation) Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPad Pro (11-inch) (2nd generation)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPhone 6s Plus Simulator",
+    "api_name": "iphone",
+    "long_version": "12.4.",
+    "device": "iPhone 6s Plus",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPhone 6s Plus Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPhone 6s Plus",
     "latest_stable_version": "",
     "automation_backend": "appium",
     "os": "Mac 10.15"
@@ -2154,6 +3529,31 @@
     "api_name": "iphone",
     "supported_backend_versions": [
       "1.16.0",
+      "1.17.1"
+    ],
+    "device": "iPhone 6s Plus",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "13.4",
+    "long_name": "iPhone 6s Plus Simulator",
+    "api_name": "iphone",
+    "long_version": "13.4.",
+    "device": "iPhone 6s Plus",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPhone 6s Plus Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
       "1.17.1"
     ],
     "device": "iPhone 6s Plus",
@@ -2278,6 +3678,56 @@
     "os": "Mac 10.15"
   },
   {
+    "short_version": "13.4",
+    "long_name": "iPhone 11 Pro Simulator",
+    "api_name": "iphone",
+    "long_version": "13.4.",
+    "device": "iPhone 11 Pro",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPhone 11 Pro Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPhone 11 Pro",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPhone Simulator",
+    "api_name": "iphone",
+    "long_version": "12.4.",
+    "device": "iPhone Simulator",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPhone Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPhone Simulator",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
     "short_version": "13.0",
     "long_name": "iPhone Simulator",
     "api_name": "iphone",
@@ -2331,6 +3781,56 @@
     "os": "Mac 10.15"
   },
   {
+    "short_version": "13.4",
+    "long_name": "iPhone Simulator",
+    "api_name": "iphone",
+    "long_version": "13.4.",
+    "device": "iPhone Simulator",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPhone Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "iphone",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPhone Simulator",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPad Pro (12.9 inch) (2nd generation) Simulator",
+    "api_name": "ipad",
+    "long_version": "12.4.",
+    "device": "iPad Pro (12.9-inch) (2nd generation)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPad Pro (12.9 inch) (2nd generation) Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPad Pro (12.9-inch) (2nd generation)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
     "short_version": "13.0",
     "long_name": "iPad Pro (12.9 inch) (2nd generation) Simulator",
     "api_name": "ipad",
@@ -2384,6 +3884,56 @@
     "os": "Mac 10.15"
   },
   {
+    "short_version": "13.4",
+    "long_name": "iPad Pro (12.9 inch) (2nd generation) Simulator",
+    "api_name": "ipad",
+    "long_version": "13.4.",
+    "device": "iPad Pro (12.9-inch) (2nd generation)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "13.4",
+    "long_name": "iPad Pro (12.9 inch) (2nd generation) Simulator",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.17.1"
+    ],
+    "device": "iPad Pro (12.9-inch) (2nd generation)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "12.4",
+    "long_name": "iPad Pro (10.5 inch) Simulator",
+    "api_name": "ipad",
+    "long_version": "12.4.",
+    "device": "iPad Pro (10.5-inch)",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Mac 10.15"
+  },
+  {
+    "deprecated_backend_versions": [],
+    "short_version": "12.4",
+    "long_name": "iPad Pro (10.5 inch) Simulator",
+    "recommended_backend_version": "1.13.0",
+    "long_version": "12.4.",
+    "api_name": "ipad",
+    "supported_backend_versions": [
+      "1.13.0"
+    ],
+    "device": "iPad Pro (10.5-inch)",
+    "latest_stable_version": "",
+    "automation_backend": "appium",
+    "os": "Mac 10.15"
+  },
+  {
     "short_version": "13.0",
     "long_name": "iPad Pro (10.5 inch) Simulator",
     "api_name": "ipad",
@@ -2437,779 +3987,47 @@
     "os": "Mac 10.15"
   },
   {
-    "short_version": "12.4",
-    "long_name": "iPad Simulator",
-    "api_name": "ipad",
-    "long_version": "12.4.",
-    "device": "iPad Simulator",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPad Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "ipad",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPad Simulator",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPad mini (5th generation) Simulator",
-    "api_name": "ipad",
-    "long_version": "12.4.",
-    "device": "iPad mini (5th generation)",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPad mini (5th generation) Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "ipad",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPad mini (5th generation)",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPad Pro (12.9 inch) (3rd generation) Simulator",
-    "api_name": "ipad",
-    "long_version": "12.4.",
-    "device": "iPad Pro (12.9-inch) (3rd generation)",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPad Pro (12.9 inch) (3rd generation) Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "ipad",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPad Pro (12.9-inch) (3rd generation)",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPhone 6s Simulator",
-    "api_name": "iphone",
-    "long_version": "12.4.",
-    "device": "iPhone 6s",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPhone 6s Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "iphone",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPhone 6s",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPhone 8 Plus Simulator",
-    "api_name": "iphone",
-    "long_version": "12.4.",
-    "device": "iPhone 8 Plus",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPhone 8 Plus Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "iphone",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPhone 8 Plus",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPad Air 2 Simulator",
-    "api_name": "ipad",
-    "long_version": "12.4.",
-    "device": "iPad Air 2",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPad Air 2 Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "ipad",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPad Air 2",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPhone 7 Plus Simulator",
-    "api_name": "iphone",
-    "long_version": "12.4.",
-    "device": "iPhone 7 Plus",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPhone 7 Plus Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "iphone",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPhone 7 Plus",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPad Pro (11 inch) Simulator",
-    "api_name": "ipad",
-    "long_version": "12.4.",
-    "device": "iPad Pro (11-inch)",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPad Pro (11 inch) Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "ipad",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPad Pro (11-inch)",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPad (6th generation) Simulator",
-    "api_name": "ipad",
-    "long_version": "12.4.",
-    "device": "iPad (6th generation)",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPad (6th generation) Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "ipad",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPad (6th generation)",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPad Air (3rd generation) Simulator",
-    "api_name": "ipad",
-    "long_version": "12.4.",
-    "device": "iPad Air (3rd generation)",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPad Air (3rd generation) Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "ipad",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPad Air (3rd generation)",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPad mini 2 Simulator",
-    "api_name": "ipad",
-    "long_version": "12.4.",
-    "device": "iPad mini 2",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPad mini 2 Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "ipad",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPad mini 2",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPad mini 3 Simulator",
-    "api_name": "ipad",
-    "long_version": "12.4.",
-    "device": "iPad mini 3",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPad mini 3 Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "ipad",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPad mini 3",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPhone 7 Simulator",
-    "api_name": "iphone",
-    "long_version": "12.4.",
-    "device": "iPhone 7",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPhone 7 Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "iphone",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPhone 7",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPhone 6 Simulator",
-    "api_name": "iphone",
-    "long_version": "12.4.",
-    "device": "iPhone 6",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPhone 6 Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "iphone",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPhone 6",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPad mini 4 Simulator",
-    "api_name": "ipad",
-    "long_version": "12.4.",
-    "device": "iPad mini 4",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPad mini 4 Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "ipad",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPad mini 4",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPhone 8 Simulator",
-    "api_name": "iphone",
-    "long_version": "12.4.",
-    "device": "iPhone 8",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPhone 8 Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "iphone",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPhone 8",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPhone 5s Simulator",
-    "api_name": "iphone",
-    "long_version": "12.4.",
-    "device": "iPhone 5s",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPhone 5s Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "iphone",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPhone 5s",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPhone SE Simulator",
-    "api_name": "iphone",
-    "long_version": "12.4.",
-    "device": "iPhone SE",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPhone SE Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "iphone",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPhone SE",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPad Air Simulator",
-    "api_name": "ipad",
-    "long_version": "12.4.",
-    "device": "iPad Air",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPad Air Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "ipad",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPad Air",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPad (5th generation) Simulator",
-    "api_name": "ipad",
-    "long_version": "12.4.",
-    "device": "iPad (5th generation)",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPad (5th generation) Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "ipad",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPad (5th generation)",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPad Pro (12.9 inch) Simulator",
-    "api_name": "ipad",
-    "long_version": "12.4.",
-    "device": "iPad Pro (12.9-inch)",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPad Pro (12.9 inch) Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "ipad",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPad Pro (12.9-inch)",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPad Pro (9.7 inch) Simulator",
-    "api_name": "ipad",
-    "long_version": "12.4.",
-    "device": "iPad Pro (9.7-inch)",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPad Pro (9.7 inch) Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "ipad",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPad Pro (9.7-inch)",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPhone XS Max Simulator",
-    "api_name": "iphone",
-    "long_version": "12.4.",
-    "device": "iPhone XS Max",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPhone XS Max Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "iphone",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPhone XS Max",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPhone 6 Plus Simulator",
-    "api_name": "iphone",
-    "long_version": "12.4.",
-    "device": "iPhone 6 Plus",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPhone 6 Plus Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "iphone",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPhone 6 Plus",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPhone X Simulator",
-    "api_name": "iphone",
-    "long_version": "12.4.",
-    "device": "iPhone X",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPhone X Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "iphone",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPhone X",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPhone XR Simulator",
-    "api_name": "iphone",
-    "long_version": "12.4.",
-    "device": "iPhone XR",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPhone XR Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "iphone",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPhone XR",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPhone XS Simulator",
-    "api_name": "iphone",
-    "long_version": "12.4.",
-    "device": "iPhone XS",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPhone XS Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "iphone",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPhone XS",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPhone 6s Plus Simulator",
-    "api_name": "iphone",
-    "long_version": "12.4.",
-    "device": "iPhone 6s Plus",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPhone 6s Plus Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "iphone",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPhone 6s Plus",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPhone Simulator",
-    "api_name": "iphone",
-    "long_version": "12.4.",
-    "device": "iPhone Simulator",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPhone Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "iphone",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPhone Simulator",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
-    "long_name": "iPad Pro (12.9 inch) (2nd generation) Simulator",
-    "api_name": "ipad",
-    "long_version": "12.4.",
-    "device": "iPad Pro (12.9-inch) (2nd generation)",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Mac 10.14"
-  },
-  {
-    "deprecated_backend_versions": [],
-    "short_version": "12.4",
-    "long_name": "iPad Pro (12.9 inch) (2nd generation) Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
-    "api_name": "ipad",
-    "supported_backend_versions": [
-      "1.13.0"
-    ],
-    "device": "iPad Pro (12.9-inch) (2nd generation)",
-    "latest_stable_version": "",
-    "automation_backend": "appium",
-    "os": "Mac 10.14"
-  },
-  {
-    "short_version": "12.4",
+    "short_version": "13.4",
     "long_name": "iPad Pro (10.5 inch) Simulator",
     "api_name": "ipad",
-    "long_version": "12.4.",
+    "long_version": "13.4.",
     "device": "iPad Pro (10.5-inch)",
     "latest_stable_version": "",
     "automation_backend": "webdriver",
-    "os": "Mac 10.14"
+    "os": "Mac 10.15"
   },
   {
     "deprecated_backend_versions": [],
-    "short_version": "12.4",
+    "short_version": "13.4",
     "long_name": "iPad Pro (10.5 inch) Simulator",
-    "recommended_backend_version": "1.13.0",
-    "long_version": "12.4.",
+    "recommended_backend_version": "1.17.1",
+    "long_version": "13.4.",
     "api_name": "ipad",
     "supported_backend_versions": [
-      "1.13.0"
+      "1.17.1"
     ],
     "device": "iPad Pro (10.5-inch)",
     "latest_stable_version": "",
     "automation_backend": "appium",
-    "os": "Mac 10.14"
+    "os": "Mac 10.15"
+  },
+  {
+    "short_version": "11",
+    "long_name": "Internet Explorer",
+    "api_name": "internet explorer",
+    "long_version": "11.285.17134.0.",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Windows 10"
+  },
+  {
+    "short_version": "18",
+    "long_name": "Microsoft Edge",
+    "api_name": "MicrosoftEdge",
+    "long_version": "18.17763.",
+    "latest_stable_version": "",
+    "automation_backend": "webdriver",
+    "os": "Windows 10"
   },
   {
     "short_version": "10",
@@ -9906,24 +10724,6 @@
     "latest_stable_version": "",
     "automation_backend": "webdriver",
     "os": "Mac 10.11"
-  },
-  {
-    "short_version": "11",
-    "long_name": "Internet Explorer",
-    "api_name": "internet explorer",
-    "long_version": "11.285.17134.0.",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Windows 10"
-  },
-  {
-    "short_version": "18",
-    "long_name": "Microsoft Edge",
-    "api_name": "MicrosoftEdge",
-    "long_version": "18.17763.",
-    "latest_stable_version": "",
-    "automation_backend": "webdriver",
-    "os": "Windows 10"
   },
   {
     "short_version": "11.3",

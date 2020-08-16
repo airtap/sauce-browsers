@@ -122,8 +122,13 @@ function normalize (manifests) {
       platform,
       title,
       wants: {
-        // TODO: do ios_saf and the new edge require loopback?
-        loopback: ['safari', 'ios_saf', 'edge'].includes(name),
+        loopback: [
+          'safari',
+          'edge',
+          'chrome',
+          'and_chr',
+          'firefox'
+        ].includes(name),
         tunnel: true,
         secureEnv: true
       },

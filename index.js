@@ -116,6 +116,14 @@ function normalize (manifests) {
     // the emulator or simulator. Use Appium's platform name instead.
     const platform = (capabilities.appium ? capabilities.appium.platformName : manifest.os).toLowerCase()
 
+    // Exclude Safari 11 on Mac 10.12 because it throws an error upon console.log() which
+    // is caused by the WebDriver extension that Sauce Labs has installed on MacOS 10.12
+    // but luckily not on 10.13, so Safari 11 can be tested on 10.13 instead.
+    // See https://github.com/apache/cordova-plugin-media-capture/issues/105#issuecomment-425052111
+    if (name === 'safari' && platform === 'mac 10.12' && major(version) === 11) {
+      return null
+    }
+
     const result = {
       name,
       version,
